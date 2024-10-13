@@ -21,6 +21,21 @@ The solution uses a combination of FAISS (for vector search) and Google Gemini e
 - **Chat Interface**: Users can interact with the system using a chat-like interface, where they can ask questions and receive answers.
 - **Unanswerable Queries**: If no relevant content is found in the documents, the system informs the user that no relevant information was found.
 
+## Technology Stack 
+
+- **Streamlit**: Used to build the web interface.
+- **LangChain**: Provides utilities for language models and chains.
+- **FAISS**: For fast document vector search.
+- **Google Gemini Embeddings**: Used for embedding document content into vectors.
+- **ChatGroq (Llama Model)**: Used
+- **PyPDFLoader**: For processing and extracting text from PDF files.
+- **Tempfile**: For managing temporary file storage for PDF uploads.
+
+## Limitations 
+- The system is limited to processing a maximum of 100 PDFs at a time.
+- Large PDFs with extensive content may take longer to process and return answers.
+- The system currently handles only English-language documents and questions.
+
 ## Installation
 
 Follow these steps to set up and run the system on your local machine.
@@ -41,11 +56,11 @@ python3.10 -m venv venv
 ```
 Activate the virtual environment:
 
-On Windows:
+- On Windows:
 ```bash
 .\venv\Scripts\activate
 ```
-On macOS and Linux:
+- On macOS and Linux:
 ```bash
 source venv/bin/activate
 ```
