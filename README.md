@@ -1,5 +1,3 @@
-# Docs-QA
-
 # PDF Documents Q&A
 
 This project is a PDF-based Question-Answering (Q&A) system built using Streamlit, FAISS, Google Gemini embeddings, and the Llama language model (via ChatGroq). Users can upload multiple PDF documents, and then ask questions about the content. The system processes the documents, retrieves relevant sections, and answers the questions using a powerful LLM.
