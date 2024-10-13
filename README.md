@@ -28,8 +28,8 @@ Follow these steps to set up and run the system on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/MuaazZakria/Docs-QA.git
+cd Docs-QA
 ```
 
 ### 2. Create a Virtual Environment
