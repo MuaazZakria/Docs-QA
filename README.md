@@ -32,13 +32,6 @@ git clone <repository-url>
 cd <repository-name>
 ```
 
-### 2. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd <repository-name>
-```
-
 ### 2. Create a Virtual Environment
 
 Create a virtual environment using Python 3.10:
