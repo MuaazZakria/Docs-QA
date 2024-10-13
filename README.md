@@ -36,6 +36,12 @@ The solution uses a combination of FAISS (for vector search) and Google Gemini e
 - Large PDFs with extensive content may take longer to process and return answers.
 - The system currently handles only English-language documents and questions.
 
+## Environment Variables 
+Ensure that the following environment variables are set in your `.env` file:
+- `GROQ_API_KEY`: The API key to access Llama models via ChatGroq.
+- `GOOGLE_API_KEY`: The API key for Google Gemini embeddings.
+- The API keys are required for the vector search and the LLM response generation
+
 ## Installation
 
 Follow these steps to set up and run the system on your local machine.
@@ -79,3 +85,10 @@ streamlit run app.py
 ```
 
 Open the provided URL in your web browser to interact with the application.
+
+## Interacting with the Application
+
+- The panel on the left side of the page will allow you to upload your documents.
+- Once the documents are uploaded, you need to click on **Load Documents** button to generate their embeddings
+- If you upload more than 100 documents and click on **Load Documents** button, then an error will be raised.
+- Once the embeddings are generated, you can chat with the bot.
