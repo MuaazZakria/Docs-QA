@@ -30,3 +30,44 @@ Follow these steps to set up and run the system on your local machine.
 ```bash
 git clone <repository-url>
 cd <repository-name>
+```
+
+### 2. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+### 2. Create a Virtual Environment
+
+Create a virtual environment using Python 3.10:
+
+```bash
+python3.10 -m venv venv
+```
+Activate the virtual environment:
+
+On Windows:
+```bash
+.\venv\Scripts\activate
+```
+On macOS and Linux:
+```bash
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+Open the provided URL in your web browser to interact with the application.
